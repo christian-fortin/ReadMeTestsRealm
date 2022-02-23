@@ -75,9 +75,9 @@
 
 ![ezgif-1-5242fb8826](https://user-images.githubusercontent.com/83780176/155367266-b4948399-d7aa-4961-9e3c-2d3082ac7dfb.gif)
 
-PressTime is a fun interactive game that tests your skills with your computer's mouse. The objective of the game is to press the number's as they appear in the same order as displayed at the top of the screen. To beat the game, you must make it past all three levels. As the developer, I have not passed level 3. 
+  PressTime is a fun interactive game that tests your skills with your computer's mouse. The objective of the game is to press the number's as they appear in the same order as displayed at the top of the screen. To beat the game, you must make it past all three levels. As the developer, I have not passed level 3. 
 
-Features:
+**Features:**
 
 - A landing page including a start button and a modal for how to play.
 - A modal to display and explain how to play the game.
@@ -147,32 +147,30 @@ _For more examples, please refer to the [Documentation](https://github.com/chris
 
 ## Roadmap
 
-- [x] Sign in or Register with a secure password and unique username.
-- [x] Create, Update, and Delete a Post.
-- [x] View a Feed page.
-- [x] View a Profile Page.
-- [x] Use the explore bar to find new music in unique ways.
-- [x] Search the data base of LoFive for other users and posts.
-- [x] Comment on a user's post.
-- [x] Like a user's post.
-  - [] Share a user's post
+- [x] Create landing page.
+- [x] Create start and modal buttons.
+- [x] Create Level 1 skeleton with HTML and CSS.
+- [x] Have 3x3 square randomly generate numbers.
+- [x] Generate a random 6 digit code at the top.
+- [x] Connect a timer and display it.
+- [x] Create an if - else statment for the Wrongs.
+- [x] Create an if - else statment for if the selection is equal to the code.
+- [x] Create a button for the next level.
+- [x] Create two more levels with different code lengths, and number switch times.
+  - [] Create a level using colors instead of numbers.
+  - [] Create a level using pictures.
+  - [] Use bootstrap designs.
+  - [] Add music.
+ 
 
-See the [open issues](https://github.com/diamond-dogs-928/LoFive-FrontEnd/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/christian-fortin/SEI9-28_Project_1/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTACT -->
 
 ## Contributors
-
-Garri Kats (Project Leader) -[GitHub](https://github.com/garrigoose) - gkats11@gmail.com - [LinkedIn](https://www.linkedin.com/in/garrikats/) - Front End
-
-Christian Fortin -[GitHub](https://github.com/christian-fortin) - christian.ep.410@gmail.com - [LinkedIn](https://www.linkedin.com/in/christian-fortin/) - Front End
-
-Nazar Basistyy -[GitHub](https://github.com/nazar301) - nazar.basistyy@gmail.com - [LinkedIn]() - Back End
-
-Christian Fortin -[GitHub](https://github.com/JustinDHerpin?tab=repositories) - justindherpin@yahoo.com - [LinkedIn](https://www.linkedin.com/in/justin-herpin-ba5a8a217/) - Back End
-
+Christian Fortin -[GitHub](https://github.com/christian-fortin) - christian.ep.410@gmail.com - [LinkedIn](https://www.linkedin.com/in/christian-fortin/)
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
