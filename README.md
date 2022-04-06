@@ -17,7 +17,7 @@
     <a href="https://github.com/christian-fortin/Project_4"><strong>Explore the docs</strong></a>
     <br />
     <br />
-    <a href="https://my-food-blog-410.herokuapp.com/sessions/register">View Demo</a>
+    <a href="https://immense-falls-65855.herokuapp.com/login">View Demo</a>
     ·
     <a href="https://github.com/christian-fortin/Project_4/issues">Report Bug</a>
     ·
