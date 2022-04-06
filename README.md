@@ -1,47 +1,27 @@
 
 
 <div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
 
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/christian-fortin/SEI9-28_Project_1">
-<img width="388" alt="Screen Shot 2022-02-23 at 11 58 39 AM" src="https://user-images.githubusercontent.com/83780176/155368390-72d93a51-f0d7-4c66-a877-ac1a740f677c.png">
+  <a href="https://github.com/christian-fortin/Project_4">
+<img width="388" alt="Screen Shot 2022-02-23 at 11 58 39 AM" src="">
+    // screen shots
   </a>
 
   <p align="center">
-    This project was built for the purpose of creating a game that involved speed and percision. 
+    This project was built for the purpose of tracking and sharing websites of interest while adding a random element. 
     <br />
-    <a href="https://github.com/christian-fortin/SEI9-28_Project_1"><strong>Explore the docs</strong></a>
+    <a href="https://github.com/christian-fortin/Project_4"><strong>Explore the docs</strong></a>
     <br />
     <br />
-    <a href="https://christian-fortin.github.io/SEI9-28_Project_1/Game/Start_Page.html">View Demo</a>
+    <a href="https://my-food-blog-410.herokuapp.com/sessions/register">View Demo</a>
     ·
-    <a href="https://github.com/christian-fortin/SEI9-28_Project_1/issues">Report Bug</a>
+    <a href="https://github.com/christian-fortin/Project_4/issues">Report Bug</a>
     ·
-    <a href="https://github.com/christian-fortin/SEI9-28_Project_1/pulls">Request Feature</a>
+    <a href="https://github.com/christian-fortin/Project_4/pulls">Request Feature</a>
   </p>
 </div>
 
@@ -75,29 +55,37 @@
 <p align="center">
 ![ezgif-1-5242fb8826](https://user-images.githubusercontent.com/83780176/155367266-b4948399-d7aa-4961-9e3c-2d3082ac7dfb.gif)
 </p>
-  PressTime is a fun interactive game that tests your skills with your computer's mouse. The objective of the game is to press the number's as they appear in the same order as displayed at the top of the screen. To beat the game, you must make it past all three levels. As the developer, I have not passed level 3. 
+  What is this is meant for randomness, entertainment and sharing. It is inspired by the website "stumbleUpon" which let you click a button and you were taken to a random website. I wanted to recreate that, however with a more social media feel and where users can create their own.   
 
 **Features:**
 
-- A landing page including a start button and a modal for how to play.
-- A modal to display and explain how to play the game.
-- An indication of what level a user is on and how mych time they have to complete the level.
-- A randomly generated "code" that a user must follow.
-- A "wrongs" indicator to let the user know how many times they clicked the wrong square.
-- A timer to let the user know how much time has elapsed.
-- The 3x3 square of chaning numbers to click on.
-- A selection area that adds the number that has been clicked on if correct in order for a user to track their progress.
-- An alert for when a level has been beat. 
-- If time has run out user is sent back to landing page.
-- When the level is beat a "Next Level" button appears. 
+- A register page for a user to sign up.
+- A login page for a user to login to their existing profile.
+- A feed page for the user to see their existing dots.
+- A delete method to delete entries.
+- A show card that shows more details about the dot.
+- A user should be able to click on a dot and be taken to a random website. 
+- A user should be able to click on the rating next to the dot and be shown more details about the item.
+- A user is able to create a dot by filling in the required fields.
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With:
 
+#### Front End:
 - HTML
 - CSS
 - JavaScript
+- React
+
+#### Backend End:
+- Axios
+- Mongoose
+- MongoDB
+
+#### Middleware:
+- Reduxjs/toolkit
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -120,7 +108,7 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/christian-fortin/SEI9-28_Project_1.git
+   git clone https://github.com/christian-fortin/Project_4.git
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -131,15 +119,10 @@ This is an example of how to list things you need to use the software and how to
 
 The application is available on Desktop and Mobile devices.
 
-## Game Play:
-<img width="1099" alt="star_page" src="https://user-images.githubusercontent.com/83780176/142655261-568abb72-540d-4a24-908f-e644d5aae97b.png">
-
-<img width="1095" alt="Level-1" src="https://user-images.githubusercontent.com/83780176/142660936-88f73512-34d9-4880-88b9-f5e5b54972a4.png">
-<img width="1092" alt="Level-2" src="https://user-images.githubusercontent.com/83780176/142660934-76b18dbb-71b4-4093-a15b-489cca404be1.png">
-<img width="1097" alt="Level-3" src="https://user-images.githubusercontent.com/83780176/142660931-6c31c078-ed03-4164-bc15-7e386c8453d5.png">
+## Images:
 
 
-_For more examples, please refer to the [Documentation](https://github.com/christian-fortin/SEI9-28_Project_1)_
+_For more examples, please refer to the [Documentation](https://github.com/christian-fortin/Project_4)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -147,23 +130,19 @@ _For more examples, please refer to the [Documentation](https://github.com/chris
 
 ## Roadmap
 
-- [x] Create landing page.
-- [x] Create start and modal buttons.
-- [x] Create Level 1 skeleton with HTML and CSS.
-- [x] Have 3x3 square randomly generate numbers.
-- [x] Generate a random 6 digit code at the top.
-- [x] Connect a timer and display it.
-- [x] Create an if - else statment for the Wrongs.
-- [x] Create an if - else statment for if the selection is equal to the code.
-- [x] Create a button for the next level.
-- [x] Create two more levels with different code lengths, and number switch times.
-  - [] Create a level using colors instead of numbers.
-  - [] Create a level using pictures.
-  - [] Use bootstrap designs.
-  - [] Add music.
+- [x] Create the basic CRUD in the backend.
+- [x] Create the forms on the front end for DELETE and POST.
+- [x] Create login and register routes.
+- [x] Add forms in front end for login and register.
+- [x] Create a feed page for a user.
+- [x] Create a show card.
+- [x] Style all pages more intensivley.
+  - [] Have a total feed page where all users dots go to.
+  - [] Have the dots be able to change color based on user preferences.
+
  
 
-See the [open issues](https://github.com/christian-fortin/SEI9-28_Project_1/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/christian-fortin/Project_4/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
