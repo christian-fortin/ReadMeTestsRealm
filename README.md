@@ -139,6 +139,7 @@ _For more examples, please refer to the [Documentation](https://github.com/chris
 - [x] Style all pages more intensivley.
   - [] Have a total feed page where all users dots go to.
   - [] Have the dots be able to change color based on user preferences.
+  
 
  
 
@@ -149,7 +150,7 @@ See the [open issues](https://github.com/christian-fortin/Project_4/issues) for 
 <!-- CONTACT -->
 
 ## Contributors
-Christian Fortin -[GitHub](https://github.com/christian-fortin) - christian.ep.410@gmail.com - [LinkedIn](https://www.linkedin.com/in/christian-fortin/)
+Christian Fortin - [GitHub](https://github.com/christian-fortin) - christian.ep.410@gmail.com - [LinkedIn](https://www.linkedin.com/in/christian-fortin/)
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
