@@ -1,27 +1,43 @@
 
-
 <div id="top"></div>
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
+
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+
 
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/christian-fortin/Project_4">
-<img width="388" alt="Screen Shot 2022-02-23 at 11 58 39 AM" src="">
-    // screen shots
+  <a href="https://github.com/christian-fortin/SEIR_Project_2">
+    
+<img width="388" src= "https://github.com/christian-fortin/SEIR_Project_2/blob/main/public/images/inkpx-word-art.png?raw=true" alt="https://github.com/christian-fortin/SEIR_Project_2/blob/main/public/images/inkpx-word-art.png?raw=true">
   </a>
 
   <p align="center">
-    This project was built for the purpose of tracking and sharing websites of interest while adding a random element. 
+    This project was built for the purpose of creating an application to track homemade meals. 
     <br />
-    <a href="https://github.com/christian-fortin/Project_4"><strong>Explore the docs</strong></a>
+    <a href="https://github.com/christian-fortin/SEIR_Project_2"><strong>Explore the docs</strong></a>
     <br />
     <br />
-    <a href="https://immense-falls-65855.herokuapp.com/login">View Demo</a>
+    <a href="https://my-food-blog-410.herokuapp.com/">View Demo</a>
     ·
-    <a href="https://github.com/christian-fortin/Project_4/issues">Report Bug</a>
+    <a href="https://github.com/christian-fortin/SEIR_Project_2/issues">Report Bug</a>
     ·
-    <a href="https://github.com/christian-fortin/Project_4/pulls">Request Feature</a>
+    <a href="https://github.com/christian-fortin/SEIR_Project_2/pulls">Request Feature</a>
   </p>
 </div>
 
@@ -52,40 +68,43 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-<p align="center">
-![ezgif-1-5242fb8826](https://user-images.githubusercontent.com/83780176/155367266-b4948399-d7aa-4961-9e3c-2d3082ac7dfb.gif)
-</p>
-  What is this is meant for randomness, entertainment and sharing. It is inspired by the website "stumbleUpon" which let you click a button and you were taken to a random website. I wanted to recreate that, however with a more social media feel and where users can create their own.   
+<div align="center">
+  
+  <img width="520" height="320" src="https://github.com/christian-fortin/SEIR_Project_2/blob/main/public/images/Screen%20Shot%202022-04-14%20at%2010.54.29%20AM.png?raw=true" alt="https://github.com/christian-fortin/SEIR_Project_2/blob/main/public/images/Screen%20Shot%202022-04-14%20at%2010.54.29%20AM.png?raw=true">
+ 
+  
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MyFoodBlog is a personal application for a user to track homemade dishes they create. They can keep track of the recepie, ingredients, a name, and even have an image for plating ideas.  
 
-**Features:**
 
-- A register page for a user to sign up.
-- A login page for a user to login to their existing profile.
-- A feed page for the user to see their existing dots.
-- A delete method to delete entries.
-- A show card that shows more details about the dot.
-- A user should be able to click on a dot and be taken to a random website. 
-- A user should be able to click on the rating next to the dot and be shown more details about the item.
-- A user is able to create a dot by filling in the required fields.
 
+#### Features:
+
+- A register page to register a user.
+- A login page to login a user.
+- A home page where a user can see all of their meals/dishes.
+- On the cards which hold the dishes on the home page are a delete and edit feature.
+- A user can create a new card, which asks for a name, ingredients, a recepie and an image.
+- A user can edit a card.
+- A user can delete a card.
+- A user can click on a card and see more information about it on a show page. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With:
 
-#### Front End:
+#### Front-End:
 - HTML
 - CSS
 - JavaScript
-- React
+- EJS
 
-#### Backend End:
-- Axios
+#### Back-End:
 - Mongoose
 - MongoDB
-
-#### Middleware:
-- Reduxjs/toolkit
+- Express
+- Bcrypt
+- Multer
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -108,7 +127,7 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/christian-fortin/Project_4.git
+   git clone https://github.com/christian-fortin/SEIR_Project_2.git
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -119,10 +138,14 @@ This is an example of how to list things you need to use the software and how to
 
 The application is available on Desktop and Mobile devices.
 
-## Images:
+## Game Play:
+
+<img width="1095" alt="Show Page" src="https://github.com/christian-fortin/SEIR_Project_2/blob/main/public/images/Screen%20Shot%202022-04-14%20at%2010.54.50%20AM.png?raw=true">
+
+<img width="1092" src="https://github.com/christian-fortin/SEIR_Project_2/blob/main/public/images/Screen%20Shot%202022-04-14%20at%2010.55.15%20AM.png?raw=true" alt="edit page">
 
 
-_For more examples, please refer to the [Documentation](https://github.com/christian-fortin/Project_4)_
+_For more examples, please refer to the [Documentation](https://github.com/christian-fortin/SEI9-28_Project_1)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -130,27 +153,30 @@ _For more examples, please refer to the [Documentation](https://github.com/chris
 
 ## Roadmap
 
-- [x] Create the basic CRUD in the backend.
-- [x] Create the forms on the front end for DELETE and POST.
-- [x] Create login and register routes.
-- [x] Add forms in front end for login and register.
-- [x] Create a feed page for a user.
-- [x] Create a show card.
-- [x] Style all pages more intensivley.
-  - [] Have a total feed page where all users dots go to.
-  - [] Have the dots be able to change color based on user preferences.
-  
-
+- [x] Create basic CRUD routes.
+- [x] Create models.
+- [x] Create create sessions and bcrypt paths (register and login routes).
+- [x] A home page on the front-end.
+- [x] A login and register page.
+- [x] Seed data and use EJS and CSS to create a dish.
+- [x] Confirm delete route works.
+- [x] Make a 'Show' page for more information about a dish.
+- [x] Create a 'new' page for creating a new dish and posting it to the home page.
+- [x] Create an update page for updating a dish.
+- [x] Implement multer and add to the show, create, and update routes
+  - [] Create a general feed page where all users can share their dishes.
+  - [] Update CSS to more modern styles.
+  - [] Use bootstrap designs.
  
 
-See the [open issues](https://github.com/christian-fortin/Project_4/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/christian-fortin/SEIR_Project_2/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTACT -->
 
 ## Contributors
-Christian Fortin - [GitHub](https://github.com/christian-fortin) - christian.ep.410@gmail.com - [LinkedIn](https://www.linkedin.com/in/christian-fortin/)
+Christian Fortin -[GitHub](https://github.com/christian-fortin) - christian.ep.410@gmail.com - [LinkedIn](https://www.linkedin.com/in/christian-fortin/)
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
@@ -180,4 +206,3 @@ Don't forget to give the project a star! Thanks again!
 - [CSS-Tricks Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
