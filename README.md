@@ -22,22 +22,22 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/christian-fortin/SEIR_Project_2">
+  <a href="https://pern-chaos.herokuapp.com/">
     
-<img width="388" src= "https://github.com/christian-fortin/SEIR_Project_2/blob/main/public/images/inkpx-word-art.png?raw=true" alt="https://github.com/christian-fortin/SEIR_Project_2/blob/main/public/images/inkpx-word-art.png?raw=true">
+<img width="388" src= "https://github.com/christian-fortin/Portfolio_2/blob/main/portfolio_2_cf/public/images/chaos_logo.png?raw=true" alt="Chaos Logo">
   </a>
 
   <p align="center">
-    This project was built for the purpose of creating an application to track homemade meals. 
+    This project was built just to see what people would post online. I wanted it to be a back and forth between people and posting. 
     <br />
-    <a href="https://github.com/christian-fortin/SEIR_Project_2"><strong>Explore the docs</strong></a>
+    <a href="https://github.com/christian-fortin/pern-chaos"><strong>Explore the docs</strong></a>
     <br />
     <br />
-    <a href="https://my-food-blog-410.herokuapp.com/">View Demo</a>
+    <a href="https://pern-chaos.herokuapp.com/">View Demo</a>
     ·
-    <a href="https://github.com/christian-fortin/SEIR_Project_2/issues">Report Bug</a>
+    <a href="https://github.com/christian-fortin/pern-chaos/issues">Report Bug</a>
     ·
-    <a href="https://github.com/christian-fortin/SEIR_Project_2/pulls">Request Feature</a>
+    <a href="https://github.com/christian-fortin/pern-chaos/pulls">Request Feature</a>
   </p>
 </div>
 
@@ -74,20 +74,24 @@
  
   
 </div>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MyFoodBlog is a personal application for a user to track homemade dishes they create. They can keep track of the recepie, ingredients, a name, and even have an image for plating ideas.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "Chaos" is a type of social media application where anyone can say anything. I put out QR code stickers of the project in the city in random places and was curious what would make it onto the website. It purposely has no sessions because when enough people are using it it would be chaos for everyone to edit and delete and create any post.
+          From a technical view point this project was used to freshen and enhance my understanding of back end API's as I did most of it from memory/gut-feeling/google instead of following along with a video. I also wanted to learn more about using PSQL as a backend database instead of MongoDB.
 
 
 
 #### Features:
 
-- A register page to register a user.
-- A login page to login a user.
-- A home page where a user can see all of their meals/dishes.
-- On the cards which hold the dishes on the home page are a delete and edit feature.
-- A user can create a new card, which asks for a name, ingredients, a recepie and an image.
-- A user can edit a card.
-- A user can delete a card.
-- A user can click on a card and see more information about it on a show page. 
+- A show page of all the posts
+- A Post input
+- A delete function for any post
+
+#### Features to come:
+- Like buttons
+- Limit posts per page
+- Add music
+- Push top liked posts to the top of the page
+- Add a section for a name tag (can be a handle or made up name)
+- Search feature
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -97,14 +101,13 @@
 - HTML
 - CSS
 - JavaScript
-- EJS
+- React
 
 #### Back-End:
-- Mongoose
-- MongoDB
+- Cors
 - Express
-- Bcrypt
-- Multer
+- PosgreSQL
+- Heroku (Deployment)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -127,7 +130,7 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/christian-fortin/SEIR_Project_2.git
+   git clone https://github.com/christian-fortin
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -138,38 +141,28 @@ This is an example of how to list things you need to use the software and how to
 
 The application is available on Desktop and Mobile devices.
 
-## Game Play:
-
-<img width="1095" alt="Show Page" src="https://github.com/christian-fortin/SEIR_Project_2/blob/main/public/images/Screen%20Shot%202022-04-14%20at%2010.54.50%20AM.png?raw=true">
-
-<img width="1092" src="https://github.com/christian-fortin/SEIR_Project_2/blob/main/public/images/Screen%20Shot%202022-04-14%20at%2010.55.15%20AM.png?raw=true" alt="edit page">
-
-
-_For more examples, please refer to the [Documentation](https://github.com/christian-fortin/SEI9-28_Project_1)_
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 <!-- ROADMAP -->
 
 ## Roadmap
 
-- [x] Create basic CRUD routes.
 - [x] Create models.
-- [x] Create create sessions and bcrypt paths (register and login routes).
-- [x] A home page on the front-end.
-- [x] A login and register page.
-- [x] Seed data and use EJS and CSS to create a dish.
-- [x] Confirm delete route works.
-- [x] Make a 'Show' page for more information about a dish.
-- [x] Create a 'new' page for creating a new dish and posting it to the home page.
-- [x] Create an update page for updating a dish.
-- [x] Implement multer and add to the show, create, and update routes
-  - [] Create a general feed page where all users can share their dishes.
-  - [] Update CSS to more modern styles.
-  - [] Use bootstrap designs.
+- [x] Create basic CRUD routes.
+- [x] Create backend connection.
+- [x] Complete backend routes.
+- [x] Create front end post input and function.
+- [x] Front end delete button and function.
+- [x] Front end edit function and popup.
+- [x] Styling.
+  - [] Make more Mobile friendly.
+  - [] Like buttons.
+  - [] Limit posts per page.
+  - [] Add music.
+  - [] Push top liked posts to the top of the page.
+  - [] Add a section for a name tag (can be a handle or made up name).
+  - [] Search feature.
  
 
-See the [open issues](https://github.com/christian-fortin/SEIR_Project_2/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/christian-fortin/pern-chaos/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
