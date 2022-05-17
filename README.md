@@ -70,7 +70,7 @@
 ## About The Project
 <div align="center">
   
-  <img width="520" height="320" src="https://github.com/christian-fortin/SEIR_Project_2/blob/main/public/images/Screen%20Shot%202022-04-14%20at%2010.54.29%20AM.png?raw=true" alt="https://github.com/christian-fortin/SEIR_Project_2/blob/main/public/images/Screen%20Shot%202022-04-14%20at%2010.54.29%20AM.png?raw=true">
+  <img width="520" height="320" src="https://github.com/christian-fortin/Portfolio_2/blob/main/portfolio_2_cf/public/images/pern_chaos.gif?raw=true">
  
   
 </div>
